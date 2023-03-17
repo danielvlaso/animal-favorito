@@ -98,6 +98,10 @@ main{
     padding: 20px;
 }
 
+p{
+    margin-top: 10px;
+}
+
 /* footer */
 
 
@@ -107,4 +111,10 @@ footer{
     width: 100%;
     position: absolute;
     bottom: 0;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 20px;
+    font-size: 1.5em;
 }
