@@ -1,9 +1,17 @@
 *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     color: white;
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 ul{
+    padding-top: 30px;
     list-style-type: none;
 }
 
@@ -13,6 +21,10 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+h1{
+    padding: 10px;
 }
 
 /* custom properties */
@@ -40,7 +52,8 @@ body > header{
 
 li{
     padding: 10px;
-    background-color: black;
+    background-color: rgba(0, 255, 255, 0.300);
+    border-radius: 20px;
 }
 
 
@@ -57,8 +70,9 @@ main{
     background-color: rgba(0, 255, 255, 0.300);
     max-width: 600px;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: center;
+    border-radius: 20px;
 }
 
 
@@ -74,6 +88,23 @@ main{
 .arms-image img {
     flex-shrink: 1;
     min-width: 100%;
-    min-height: 100%
+    min-height: 100%;
+    border-radius: 20px;
 }
 
+
+.the-text{
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+/* footer */
+
+
+footer{
+    background-color: rgba(0, 255, 255, 0.300);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
