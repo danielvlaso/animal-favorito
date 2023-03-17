@@ -118,3 +118,38 @@ footer p{
     margin-top: 20px;
     font-size: 1.5em;
 }
+
+
+/* formulario */
+
+form{
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.300);
+    border-radius: 20px;
+    min-height: 50px;
+    color: black;
+    font-size: 1.2em;
+    border: none;
+}
+
+textarea{
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.300);
+    border-radius: 20px;
+    min-height: 100px;
+    color: black;
+    font-size: 1.2em;
+    resize: none;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.boton{
+    margin-top: 20px;
+    background-color: rgba(240, 255, 255, 0.500)
+}
