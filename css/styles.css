@@ -3,8 +3,77 @@
     text-align: center;
 }
 
+ul{
+    list-style-type: none;
+}
+
 body{
-    height: auto;
-    background: lightblue url("../images/red-panda.jpg") no-repeat fixed center;
+    background: url(../images/red-panda.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
+
+/* custom properties */
+
+.flex{
+    display: flex;
+}
+
+.center-align{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.spaces{
+    justify-content: space-between;
+}
+
+/* Header */
+
+body > header{
+    max-width: 800px;
+    margin: auto;
+}
+
+li{
+    padding: 10px;
+    background-color: black;
+}
+
+
+
+/* Body */
+
+main{
+    justify-content: center;
+}
+
+
+.text-body{
+    min-height: 300px;
+    background-color: rgba(0, 255, 255, 0.300);
+    max-width: 600px;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+
+.arms-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.arms-image img {
+    flex-shrink: 1;
+    min-width: 100%;
+    min-height: 100%
+}
+
