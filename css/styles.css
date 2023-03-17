@@ -1,0 +1,10 @@
+*{
+    color: white;
+    text-align: center;
+}
+
+body{
+    height: auto;
+    background: lightblue url("../images/red-panda.jpg") no-repeat fixed center;
+    background-size: cover;
+}
