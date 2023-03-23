@@ -68,9 +68,9 @@ main{
 .text-body{
     min-height: 300px;
     background-color: rgba(0, 255, 255, 0.300);
-    max-width: 600px;
+    max-width: 550px;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
     justify-content: center;
     border-radius: 20px;
 }
@@ -163,3 +163,8 @@ textarea{
 #checkbox{
     transform: scale(0.4);
 }
+/* imagen adicional */
+.img1,.img2{
+    width: 100%;
+}
+
