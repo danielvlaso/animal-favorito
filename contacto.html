@@ -29,15 +29,17 @@
                 <p>
                     No me seas persona de mal corazon, pasame informacion del panda rojo
                 </p>
-
+                <p><small>los campos con * son obligatorios</small></p>
                 <form class="formulario" action="/action_page.php" id="usrform" enctype="multipart/form-data">
                     <input type="text" id="fname" name="fname" placeholder="Nombre" required><br> <br>
+                    <label for="comment">*</label>
                     <textarea name="comment" form="usrform" required>Venga venga, sueltame esos secretos del panda rojo...</textarea>
                     <div>
-                        <label for="archivos">Ingresa tus archivos pandiferos</label>
+                        <label for="archivos">* Ingresa tus archivos pandiferos</label>
                         <input class="archivos" type="file" name="archivos" id="archivos" required>
                     </div>
                     <div class="tacbox ">
+                        
                         <input id="checkbox" type="checkbox"  required/><span> Acepto <a href="#">terminos y condiciones</a>.</span>
                         <!-- <label class="checkboxo" for="checkbox"> </label> -->
                     </div>
