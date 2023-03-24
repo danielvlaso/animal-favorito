@@ -153,7 +153,14 @@ textarea{
     margin-top: 20px;
     background-color: rgba(240, 255, 255, 0.500)
 }
-
+.tacbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tacbox input{
+    flex-basis: 10%;
+}
 .tacbox.flex{
     margin: 0;
     padding: 0;
@@ -305,4 +312,9 @@ textarea{
   }
   .comida{
     padding-top: 0px;
+  }
+  /* archivos */
+  .archivos{
+    padding-left: 8px;
+    padding-top: 11px;
   }
