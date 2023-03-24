@@ -163,8 +163,146 @@ textarea{
 #checkbox{
     transform: scale(0.4);
 }
+
 /* imagen adicional */
 .img1,.img2{
     width: 100%;
 }
+/* experiencias */
+.anchoMaximo{
+    width: 1250px;
+}
+.principal{
+    margin: 20px auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+   justify-items: center;
+    gap: 20px;
+}
+.pandas{
+    border-radius: 15px;
+    text-align: center;
+}
+.pandas h2{
+    padding: 20px;
+    margin: 20px auto;
+    background: rgba(50, 50, 209, 0.405);
+    border-radius: 10px;
+    font-size: 1.6em;
+}
 
+.pandas .imgExp1{
+    width: 660px;
+    border: 30px solid rgba(0, 128, 0, 0.185);
+    border-radius: 15px;
+}
+
+.pandas .imgExp2{
+    width: 565px;
+    border: 30px solid rgba(0, 128, 0, 0.185);
+    border-radius: 15px;
+}
+.espacio{
+    margin-left: auto;
+}
+
+.btn{
+    background: rgb(228, 222, 222);
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 1.4em;
+    border-radius: 10px;
+}
+.espacio2{
+    min-width: 560px;
+}
+
+.btn:hover{
+    background: rgb(42, 138, 58);   
+    color: rgb(218, 199, 199);
+}
+/* experiencia */
+.grid-principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.grid-principal h1{
+    margin: 20px auto;
+    background: rgba(50, 50, 209, 0.405);
+    border-radius: 10px;
+    font-size: 1.6em;
+}
+.grid-principal h3{
+    font-size: 1.4em;
+}
+.anchoMaximo{
+    max-width: 1250px;
+    margin: 20px auto;
+}
+/* juego-panda */
+.grid-juego-panda {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+  }
+  .btn-reinicia{
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    background: rgb(153, 158, 153);
+    color: rgb(32, 23, 23);
+    border-radius: 10px;
+  }
+  .btn-reinicia:hover{
+    
+    background: rgb(194, 47, 28);
+    color: rgb(194, 168, 168);
+    
+  }
+  .grid-principal>h3{
+    padding: 20px;
+    margin: 20px auto;
+    background: rgba(50, 50, 209, 0.405);
+    border-radius: 10px;
+    font-size: 1.6em;
+  }
+  .grid-principal>p{
+    font-size: 1.7em;
+  }
+
+  .desayuno{
+    text-align: center;
+  }
+  .desayuno h1{
+    margin: 20px auto;
+    background: rgba(50, 50, 209, 0.405);
+    border-radius: 10px;
+    font-size: 1.6em;
+  }
+  .desayuno img{
+    width: 600px;
+    border: 30px solid rgba(24, 132, 24, 0.503);
+    border-radius: 10px;
+  }
+  .desayuno p{
+    font-size: 1.6em;
+    margin: 20px;
+  }
+  .comida li{
+    text-align: left;
+    list-style-type: circle;
+    background: none;
+    font-size: 1.2em;
+  }
+  .comida{
+    padding-top: 0px;
+  }
