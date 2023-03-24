@@ -15,7 +15,7 @@
             <ul class="flex center-align spaces">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="arte-nombre-animal.html">Arte</a></li>
-                <li><a href="experiencias.html">Experiencias</a></li>
+                <li><a href="experiencias.html">Interactua</a></li>
                 <li><a href="descubre-pandarojo.html">Descubre</a></li>
                 <li><a href="dieta-panda-rojo.html">Dieta</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
@@ -30,13 +30,16 @@
                     No me seas persona de mal corazon, pasame informacion del panda rojo
                 </p>
 
-                <form class="formulario" action="/action_page.php" id="usrform">
+                <form class="formulario" action="/action_page.php" id="usrform" enctype="multipart/form-data">
                     <input type="text" id="fname" name="fname" placeholder="Nombre"><br> <br>
                     <textarea name="comment" form="usrform">Venga venga, sueltame esos secretos del panda rojo...</textarea>
-                    
-                    <div class="tacbox flex">
-                        <input id="checkbox" type="checkbox" />
-                        <label class="checkboxo" for="checkbox"> Acepto <a href="#">terminos y condiciones</a>.</label>
+                    <div>
+                        <label for="archivos">Ingresa tus archivos pandiferos</label>
+                        <input class="archivos" type="file" name="archivos" id="archivos">
+                    </div>
+                    <div class="tacbox ">
+                        <input id="checkbox" type="checkbox" /><span> Acepto <a href="#">terminos y condiciones</a>.</span>
+                        <!-- <label class="checkboxo" for="checkbox"> </label> -->
                     </div>
 
                     <input class="boton" type="submit" value="Mandar Secretos">
